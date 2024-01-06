@@ -82,6 +82,10 @@ margin-bottom: 0%;
 
 }
 /*main section styles*/
+main {
+   max-width: 1140px;
+   margin: 0 auto;
+}
 
 /*about section styles*/
 .about {
@@ -91,4 +95,9 @@ margin-bottom: 0%;
     margin: 130px 0;
 
 
+} 
+
+.about-info-container {
+    display:flex ;
+    justify-content: space-around;
 }
